@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+   
+    <link rel="stylesheet" href="css/mydash.css">
+
+    <script src="https://kit.fontawesome.com/c6d6e74636.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main-dash-container">
+        <div class="top-nav">
+          <center><h2 class="dashbord-text">Dashboard</h2></center> 
+            <div class="right-coner-icons">
+             <h4><a href="login.html">Logout</a></h4>
+            </div>
+        </div>
+        <div class="body-divs">
+            <div class="side-nav">
+                <div class="side-title"><p>Menu</p></div>
+                <ul>
+                    <li>Home</li>
+                    <li>Blog</li>
+                    <li>Message</li>
+                    <li>Notification</li>
+                </ul>
+            </div>
+<center>
+
+<div class="form">
+
+  <label class="ablog">Add a new Blog</label>
+      <form method="post" action="send.php"><table border="0"><tr><td>
+      <label>Title: </label></td><td><input type="text" placeholder="Enter a blog title" name="name" class="inputtext"></td></tr>
+      <tr><td><label>Picture</label> </td><td><input type="file" name="picture"  class="input-file"></td></tr>
+      <tr><td><label>Descrption</label></td><td><textarea cols="24" rows="5" class="inputtext" placeholder="Write your Descrption of th blog here...."></textarea></td></tr>
+      
+</table>
+  <br/>
+      <button type="button" class="sendbutton">Post</button></form>
+    </div> 
+ 
+<br/><br/>
+<div class="allBlogs">
+  <div class="gallery">
+      <img src="images/icons/flutter.png" alt="Flutter" width="600" height="400">
+
+    <div class="desc">Flutter</div>
+    <div class="descrption"> Flutter is framework for Mobile Application development Flutter is an open-source UI ...<img src="images/icons/more.jpg" id="more"></div>
+    
+    <div class="options"><table border="0">
+
+      <tr><td><img src="images/icons/edit.png" id="edit"></td><td><img src="images/icons/delete1.png" id="delete"><td></tr>
+      
+          </table></div>
+  
+  </div>
+  
+  <div class="gallery">
+ 
+      <img src="images/icons/dart.png" alt="Dart" width="600" height="400">
+
+    <div class="desc">Dart</div>
+    <div class="descrption"> Dart is a programming language designed for client development..<img src="images/icons/more.jpg" id="more"></div>
+    
+    <div class="options"><table border="0">
+
+<tr><td><img src="images/icons/edit.png" id="edit"></td><td><img src="images/icons/delete1.png" id="delete"></td></tr>
+
+    </table></div>
+  </div>
+  
+  <div class="gallery">
+
+      <img src="images/icons/cyber.png" alt="CyberSecurity" width="600" height="400">
+
+    <div class="desc">CyberSecurity</div>
+    <div class="decrption"> Computer security, cybersecurity, 
+      or information technology.........
+      <img src="images/icons/more.jpg" id="more"></div>
+
+      <div class="options">
+
+        <tr><td><img src="images/icons/edit.png" id="edit" height="20" width="20"></td><td><img src="images/icons/delete1.png" id="delete"></td></tr>
+        
+            </table></div>
+  </div>
+</div>
+  <a href="index.html" style="text-decoration: none; color:blue;font-family: inter;"> Back to user's page</a></label>
+<br/>
+
+<br/>
+
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>
